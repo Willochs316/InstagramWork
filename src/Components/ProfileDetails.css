@@ -1,0 +1,133 @@
+.profile-container {
+  /* display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  padding: 5rem 0; */
+
+  display: flex;
+  /* grid-template-columns: auto auto; */
+
+  justify-content: center;
+  margin-bottom: 44px;
+  margin-top: 5rem;
+  width: 935px;
+  /* height: 304px; */
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  margin: 0px 30px 0px 0px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+  width: 613.33px;
+  height: 38px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-right: 35px;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 32px;
+  /* margin: -5px 0 -6px; */
+  font-weight: 300;
+  color: #262626;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.profile-button {
+  background-color: transparent;
+  border: 1px solid #dbdbdb;
+  color: #262626;
+  width: auto;
+  font-weight: 600;
+  width: 80.19px;
+  height: 30px;
+  line-height: 18px;
+  margin: -3px 0 -4px;
+  font-size: 14px;
+  padding: 5px 9px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-statistics {
+  /* display: grid;
+  width: 613.33px;
+  height: 18px;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 40px; */
+
+  width: 613.33px;
+  height: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.stats-container {
+  display: flex;
+  align-items: center;
+  color: #262626;
+}
+
+.stats {
+  font-weight: 600;
+  margin-right: -10px;
+}
+
+.profile-text {
+  text-transform: lowercase;
+  font-size: 16px;
+  margin-right: 40px;
+  font-weight: 400;
+
+  /* font-size: 16px;
+  width: 99.66px;
+  height: 18px; */
+}
+
+/* .profile-bio {
+  display: grid;
+  font-size: 16px;
+  line-height: 24px;
+  width: 613.33px;
+  height: 198px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  color: #262626;
+} */
+
+.profile-name {
+  color: #262626;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.profile-updates {
+  font-size: 12px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: #262626;
+}
